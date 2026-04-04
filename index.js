@@ -4,7 +4,6 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 const app = express();
-// Railway автоматично передає порт. Якщо його немає (наприклад, на вашому ПК), беремо 3000
 const PORT = process.env.PORT || 3000;
 
 app.use(cors());
@@ -12,57 +11,47 @@ app.use(cors());
 // Тут ми будемо зберігати останні знайдені вакансії
 let currentJobs = [];
 
-// ==========================================
-// 1. МАРШРУТИ СЕРВЕРА (Мають відповідати миттєво!)
-// ==========================================
+// Базові маршрути (відповідають миттєво)
+app.get('/', (req, res) => {
+  res.send(`
+    <div style="font-family: sans-serif; padding: 20px;">
+      <h1 style="color: #00b8ff;">Smart Vilnohirsk Jobs Parser 🚀</h1>
+      <p>Статус сервера: <b style="color: green;">Активний і працює!</b></p>
+      <p>Вакансій у базі: <b>${currentJobs.length}</b></p>
+      <a href="/api/jobs">Подивитися дані (JSON)</a>
+    </div>
+  `);
+});
+
 app.get('/api/jobs', (req, res) => {
   res.json(currentJobs);
 });
 
 app.get('/ping', (req, res) => {
-  res.status(200).send('pong');
+  res.send('pong');
 });
 
-app.get('/', (req, res) => {
-  res.status(200).send(`
-    <div style="font-family: sans-serif; padding: 20px;">
-      <h1 style="color: #00b8ff;">Smart Vilnohirsk Jobs Parser 🚀</h1>
-      <p>Статус сервера: <b style="color: green;">Активний</b></p>
-      <p>У базі зараз: <b>${currentJobs.length}</b> вакансій.</p>
-      <p>Джерела: <b>Work.ua, Robota.ua</b></p>
-      <a href="/api/jobs" style="display: inline-block; padding: 10px 15px; background: #00b8ff; color: white; text-decoration: none; border-radius: 8px;">Переглянути дані (JSON)</a>
-    </div>
-  `);
-});
-
-// ==========================================
-// 2. ЗАПУСК СЕРВЕРА (Робіть це ДО парсингу)
-// ==========================================
-app.listen(PORT, '0.0.0.0', () => {
+// Запуск сервера (найпростіший і надійний метод для Railway)
+app.listen(PORT, () => {
   console.log(`✅ Сервер успішно запущено на порту ${PORT}`);
   
-  // Відкладаємо перший парсинг на 15 секунд, щоб Railway гарантовано зафіксував запуск!
+  // Відкладаємо парсинг на 10 секунд
   setTimeout(() => {
     fetchAllJobs().catch(console.error);
-  }, 15000);
+  }, 10000);
 
-  // Далі оновлюємо дані кожні 3 години
+  // Оновлюємо кожні 3 години
   setInterval(() => {
     fetchAllJobs().catch(console.error);
   }, 3 * 60 * 60 * 1000);
 });
 
-// Глобальний захист від падінь (анти-краш)
-process.on('uncaughtException', (err) => {
-  console.error('Критична помилка:', err.message);
-});
-process.on('unhandledRejection', (err) => {
-  console.error('Помилка промісу:', err);
-});
+// Анти-краш
+process.on('uncaughtException', err => console.error('Критична помилка:', err));
+process.on('unhandledRejection', err => console.error('Помилка промісу:', err));
 
-// ==========================================
-// 3. ФУНКЦІЇ ЗБОРУ ВАКАНСІЙ (Працюють у фоні)
-// ==========================================
+// --- ЛОГІКА ПАРСИНГУ ---
+
 async function parseWorkUa() {
   try {
     const url = 'https://www.work.ua/jobs-vilnohirsk/';
@@ -141,7 +130,7 @@ async function parseRobotaUa() {
 }
 
 async function fetchAllJobs() {
-    console.log("Починаємо збір вакансій з сайтів...");
+    console.log("Починаємо збір вакансій...");
     const workJobs = await parseWorkUa();
     const robotaJobs = await parseRobotaUa();
     
@@ -149,8 +138,8 @@ async function fetchAllJobs() {
     
     if (allFound.length > 0) {
         currentJobs = allFound;
-        console.log(`✅ Зібрано ${currentJobs.length} вакансій (Work.ua: ${workJobs.length}, Robota.ua: ${robotaJobs.length})`);
+        console.log(`✅ Зібрано ${currentJobs.length} вакансій`);
     } else {
-        console.log("ℹ️ Нових вакансій не знайдено. Залишаємо старі дані.");
+        console.log("ℹ️ Нових вакансій не знайдено.");
     }
 }
