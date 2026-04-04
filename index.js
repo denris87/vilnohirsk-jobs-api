@@ -69,12 +69,21 @@ async function parseWorkUa() {
 
       // --- ФІЛЬТР ВІЙСЬКОВИХ ВАКАНСІЙ ---
       const textToSearch = (title + ' ' + company + ' ' + desc).toLowerCase();
-      const stopWords = ['зсу', 'батальйон', 'бригада', 'військов', 'взвод', 'міномет', 'штурмов', 'розвідувальн', 'десантн', 'тцк', 'сил оборони', 'військкомат', 'навідник', 'кулеметник', 'гранатометник', 'зенітн', 'артилері', 'морськ', 'піхот', 'снайпер', 'сапер', 'бойов', 'дшв'];
+      const stopWords = ['зсу', 'батальйон', 'бригада', 'військов', 'взвод', 'міномет', 'штурмов', 'розвідувальн', 'десантн', 'тцк', 'сил оборони', 'військкомат', 'навідник', 'кулеметник', 'гранатометник', 'зенітн', 'артилері', 'морськ', 'піхот', 'снайпер', 'сапер', 'командир відділення', 'бойов', 'дшв'];
       if (stopWords.some(word => textToSearch.includes(word))) {
           return; // Пропускаємо цю вакансію і не зберігаємо її
       }
 
-      tempJobs.push({ title, salary, company, description: desc, date: "Work.ua", url: jobUrl });
+      // Шукаємо справжню дату (зазвичай вона сіра, у класі text-muted)
+      let dateStr = "Нещодавно";
+      $(element).find('.text-muted').each((i, el) => {
+          let text = $(el).text().replace(/\s+/g, ' ').trim();
+          if (text && !text.includes('Відгукнутись') && !text.includes('Зберегти')) {
+              dateStr = text;
+          }
+      });
+
+      tempJobs.push({ title, salary, company, description: desc, date: dateStr, source: "Work.ua", url: jobUrl });
     });
     return tempJobs;
   } catch (error) {
