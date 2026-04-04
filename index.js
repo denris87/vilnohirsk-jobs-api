@@ -7,6 +7,17 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 app.use(cors());
 
+// --- АНТИ-КРАШ СИСТЕМА ---
+// Ці дві функції не дають серверу "впасти" (Application failed to respond),
+// якщо сталася якась непередбачувана помилка при парсингу сайтів.
+process.on('uncaughtException', (err) => {
+  console.error('Критична помилка (uncaughtException):', err.message);
+});
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('Необроблена помилка промісу (unhandledRejection):', reason);
+});
+// -------------------------
+
 // Тут ми будемо зберігати останні знайдені вакансії
 let currentJobs = [];
 
@@ -14,7 +25,7 @@ let currentJobs = [];
 async function parseWorkUa() {
   try {
     const url = 'https://www.work.ua/jobs-vilnohirsk/';
-    // Маскуємось під робота Google (Cloudflare пропускає пошуковики)
+    // Маскуємось під робота Google, щоб уникнути блокування Cloudflare
     const response = await axios.get(url, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
@@ -57,28 +68,33 @@ async function parseWorkUa() {
     });
     return tempJobs;
   } catch (error) {
-    console.error("Помилка Work.ua:", error.message);
-    return [];
+    console.error("Помилка парсингу Work.ua (можливо заблокував захист):", error.message);
+    return []; // Повертаємо пустий масив, але не "вбиваємо" сервер
   }
 }
 
-// 2. Функція для парсингу Robota.ua (офіційне відкрите API)
+// 2. Функція для парсингу Robota.ua (ОФІЦІЙНЕ ВІДКРИТЕ API)
 async function parseRobotaUa() {
   try {
     const url = encodeURI('https://api.robota.ua/teleport/api/v1/vacancies/search?keyword=Вільногірськ');
     const response = await axios.get(url, {
-        headers: { 'User-Agent': 'Mozilla/5.0' },
+        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' },
         timeout: 15000
     });
 
     const tempJobs = [];
-    if (response.data && response.data.documents) {
+    if (response.data && Array.isArray(response.data.documents)) {
         response.data.documents.forEach(doc => {
+            let desc = doc.shortDescription || 'Деталі на сайті';
+            // Очищаємо опис від HTML-тегів, якщо вони є
+            desc = desc.replace(/<[^>]*>?/gm, '').trim();
+            if (desc.length > 150) desc = desc.substring(0, 150) + '...';
+
             tempJobs.push({
                 title: doc.name || 'Вакансія',
                 salary: doc.salary ? `${doc.salary} грн` : 'Зарплата не вказана',
                 company: doc.companyName || 'Robota.ua',
-                description: doc.shortDescription ? doc.shortDescription.replace(/<[^>]*>?/gm, '').substring(0, 150) + '...' : 'Деталі на сайті',
+                description: desc,
                 date: "Robota.ua",
                 url: doc.id ? `https://robota.ua/vacancy${doc.id}` : 'https://robota.ua/zapros/робота/вільногірськ'
             });
@@ -86,14 +102,14 @@ async function parseRobotaUa() {
     }
     return tempJobs;
   } catch (error) {
-    console.error("Помилка Robota.ua:", error.message);
+    console.error("Помилка парсингу Robota.ua:", error.message);
     return [];
   }
 }
 
 // 3. Головна функція збору даних
 async function fetchAllJobs() {
-    console.log("Починаємо збір вакансій...");
+    console.log("Починаємо збір вакансій з усіх сайтів...");
     const workJobs = await parseWorkUa();
     const robotaJobs = await parseRobotaUa();
     
@@ -104,27 +120,35 @@ async function fetchAllJobs() {
         currentJobs = allFound;
         console.log(`✅ Зібрано ${currentJobs.length} вакансій (Work.ua: ${workJobs.length}, Robota.ua: ${robotaJobs.length})`);
     } else {
-        console.log("ℹ️ Нових вакансій не знайдено. Залишаємо старі дані.");
+        console.log("ℹ️ Нових вакансій не знайдено (можливо сайти тимчасово заблокували доступ). Залишаємо старі дані в пам'яті.");
     }
 }
 
+// Головний API-маршрут для додатку
 app.get('/api/jobs', (req, res) => res.json(currentJobs));
 
+// Маршрут-пінг для перевірки працездатності (Healthcheck)
+app.get('/ping', (req, res) => res.send('pong'));
+
+// Головна сторінка сервера
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Smart Vilnohirsk Jobs Parser 🚀</h1>
-    <p>У базі: <b>${currentJobs.length}</b> вакансій.</p>
-    <p>Джерела: Work.ua, Robota.ua</p>
-    <a href="/api/jobs">Подивитися дані (JSON)</a>
+    <div style="font-family: sans-serif; padding: 20px;">
+      <h1 style="color: #00b8ff;">Smart Vilnohirsk Jobs Parser 🚀</h1>
+      <p>Статус сервера: <b style="color: green;">Активний</b></p>
+      <p>У базі зараз: <b>${currentJobs.length}</b> вакансій.</p>
+      <p>Джерела: <b>Work.ua, Robota.ua</b></p>
+      <a href="/api/jobs" style="display: inline-block; padding: 10px 15px; background: #00b8ff; color: white; text-decoration: none; border-radius: 8px;">Переглянути дані (JSON)</a>
+    </div>
   `);
 });
 
+// Запуск сервера із прив'язкою до 0.0.0.0 (вимога хмарних хостингів, як Railway)
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`✅ Сервер успішно працює на порту ${PORT}`);
   
-  // ВАЖЛИВО: Запускаємо парсинг через 5 секунд ПІСЛЯ старту сервера, 
-  // щоб Railway встиг побачити, що додаток "живий", і не видавав помилку "failed to respond".
-  setTimeout(fetchAllJobs, 5000);
+  // Збираємо вакансії через 3 секунди після запуску сервера
+  setTimeout(fetchAllJobs, 3000);
   
   // Далі оновлюємо дані кожні 3 години
   setInterval(fetchAllJobs, 3 * 60 * 60 * 1000);
