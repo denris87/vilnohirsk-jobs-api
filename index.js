@@ -67,6 +67,13 @@ async function parseWorkUa() {
       let desc = $(element).find('p').text().trim();
       if (desc.length > 150) desc = desc.substring(0, 150) + '...';
 
+      // --- ФІЛЬТР ВІЙСЬКОВИХ ВАКАНСІЙ ---
+      const textToSearch = (title + ' ' + company + ' ' + desc).toLowerCase();
+      const stopWords = ['зсу', 'батальйон', 'бригада', 'військов', 'взвод', 'міномет', 'штурмов', 'розвідувальн', 'десантн', 'тцк', 'сил оборони', 'військкомат', 'навідник', 'кулеметник', 'гранатометник', 'зенітн', 'артилері', 'морськ', 'піхот', 'снайпер', 'сапер', 'бойов', 'дшв'];
+      if (stopWords.some(word => textToSearch.includes(word))) {
+          return; // Пропускаємо цю вакансію і не зберігаємо її
+      }
+
       tempJobs.push({ title, salary, company, description: desc, date: "Work.ua", url: jobUrl });
     });
     return tempJobs;
