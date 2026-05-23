@@ -1,1 +1,71 @@
-jobs: []
+jobs:
+  - title: економіст
+    vacancy_number: "04602605110025"
+    employer: КП "УК "ЖИЛКОМСЕРВІС"
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна
+    salary: 25351 грн
+    phone: "+380684916873"
+    description: розробка та обрахування проектів річних планів економічного розвитку підприємства
+    work_schedule: 5-денний робочий тиждень
+    work_nature: Постійний (301)
+    working_conditions: Оптимальні
+    requirements:
+      education: Магістр
+      experience: з досвідом роботи
+      professional_competencies: з досвідом роботи в житлово-комунальному господарстві
+    social_benefits: професійний розвиток
+    verified: true
+    date_posted: "10.05.26"
+    source: ДЦЗ
+
+  - title: юрисконсульт (радник юридичний)
+    vacancy_number: "04602603300027"
+    employer: КП "УК "ЖИЛКОМСЕРВІС"
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна
+    salary: 23203 грн
+    phone: "+380684916873"
+    description: бере участь у роботі з укладання господарських договорів, підготовки висновків про їх юридичну обґрунтованність
+    work_schedule: 5-денний робочий тиждень
+    work_nature: Постійний (301)
+    working_conditions: Оптимальні
+    requirements:
+      education: Магістр; Бакалавр
+      experience: з досвідом роботи
+    social_benefits: професійний розвиток
+    accessible_for_disabled: true
+    verified: true
+    date_posted: "17.05.26"
+    source: ДЦЗ
+
+  - title: завідувач складу
+    vacancy_number: "04602605210009"
+    employer: ТОВ "СКЛЯННИЙ АЛЬЯНС"
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна
+    salary: 20310 грн
+    phone: "+380684916873"
+    description: здійснює приймання склоформуючого інструменту що надходить від постачальника
+    work_schedule: 5-денний робочий тиждень
+    work_nature: Постійний (301)
+    working_conditions: Оптимальні
+    requirements:
+      education: Магістр; Бакалавр
+      experience: без досвіду роботи
+    social_benefits: професійний розвиток
+    verified: true
+    date_posted: "20.05.26"
+    source: ДЦЗ
