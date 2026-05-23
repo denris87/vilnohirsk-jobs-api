@@ -532,3 +532,114 @@ jobs:
     social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
     date_posted: "14.05.26"
     source: ДЦЗ
+
+  - title: водій навантажувача
+    vacancy_number: "04602605210007"
+    employer: ТОВ "СКЛЯННИЙ АЛЬЯНС"
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна, позмінна
+    salary: 10015 грн
+    phone: "+380684916873"
+    description: перевезення, розвантаження та завантаження вантажів
+    work_schedule: Робота змінами
+    work_nature: Постійний (301)
+    working_conditions: Допустимі
+    requirements:
+      education: Кваліфікований робітник
+      experience: без досвіду роботи
+    social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+    date_posted: "20.05.26"
+    source: ДЦЗ
+
+  - title: водій навантажувача
+    vacancy_number: "04602605210006"
+    employer: ТОВ "СКЛЯННИЙ АЛЬЯНС"
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна, позмінна
+    salary: 10015 грн
+    phone: "+380684916873"
+    description: перевезення, розвантаження та завантаження вантажів
+    work_schedule: Робота змінами
+    work_nature: Постійний (301)
+    working_conditions: Допустимі
+    requirements:
+      education: Кваліфікований робітник
+      experience: без досвіду роботи
+    social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+    date_posted: "20.05.26"
+    source: ДЦЗ
+
+  - title: адміністратор
+    vacancy_number: "04602601020009"
+    employer: ЛАЗУРКО ЯНА ВІКТОРІВНА
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна
+    salary: 10000 грн
+    phone: "+380684916873"
+    description: адміністратор дитячої ігрової кімнати
+    work_schedule: 5-денний робочий тиждень
+    work_nature: Постійний (301)
+    working_conditions: Оптимальні
+    requirements:
+      education: Кваліфікований робітник
+      experience: без досвіду роботи
+    social_benefits: професійний розвиток
+    date_posted: "12.05.26"
+    source: ДЦЗ
+
+  - title: адміністратор
+    vacancy_number: "04602604130024"
+    employer: ЛАЗУРКО ЯНА ВІКТОРІВНА
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна
+    salary: 10000 грн
+    phone: "+380684916873"
+    description: адміністратор дитячої ігрової кімнати
+    work_schedule: 5-денний робочий тиждень
+    work_nature: Постійний (301)
+    working_conditions: Оптимальні
+    requirements:
+      education: Кваліфікований робітник
+      experience: без досвіду роботи
+    social_benefits: професійний розвиток
+    date_posted: "14.05.26"
+    source: ДЦЗ
+
+  - title: водій автотранспортних засобів
+    vacancy_number: "04602601200012"
+    employer: ФІЛІЯ "ВІЛЬНОГІРСЬКИЙ ГІРНИЧО-МЕТАЛУРГІЙНИЙ КОМБІНАТ" АКЦІОНЕРНОГО ТОВАРИСТВА "ОБ'ЄДНАНА ГІРНИЧО-ХІМ"
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: невизначено
+    salary: 9463 грн
+    phone: "+380684916873"
+    description: виконання робіт з промиванням і чищенням каналізаційних мереж, водогінних і каналізаційних колодязів, відкачування води трубопроводів
+    work_schedule: 5-денний робочий тиждень
+    work_nature: Інше (304), строковий трудовий договір
+    working_conditions: Оптимальні
+    requirements:
+      education: Кваліфікований робітник
+      experience: без досвіду роботи
+      professional_competencies: Посвідчення водія категорії B,C
+    social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+    date_posted: "17.05.26"
+    source: ДЦЗ
