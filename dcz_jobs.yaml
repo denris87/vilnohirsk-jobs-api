@@ -189,3 +189,116 @@ jobs:
     social_benefits: професійний розвиток
     date_posted: "11.05.26"
     source: ДЦЗ
+
+  - title: ерготерапевт
+    vacancy_number: "04602601190006"
+    employer: КП "ВІЛЬНОГІРСЬКА ЦМЛ"
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна
+    salary: 20000 грн
+    phone: "+380684916873"
+    description: сприяє набуттю людьми з обмеженнями життєдіяльності максимального рівня функціональності та незалежності в усіх аспектах життя
+    work_schedule: 5-денний робочий тиждень
+    work_nature: Постійний (301)
+    working_conditions: робота, пов'язана з підвищенним нервово-емоційним та інтелектуальним навантаженням
+    requirements:
+      education: Магістр
+      experience: без досвіду роботи
+    social_benefits: професійний розвиток
+    date_posted: "12.05.26"
+    source: ДЦЗ
+
+  - title: інженер-енергетик
+    vacancy_number: "04602603300025"
+    employer: КП "УК "ЖИЛКОМСЕРВІС"
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна
+    salary: 19888 грн
+    phone: "+380684916873"
+    description: здійснює роботу з організації обліку ПЕР, удосконалює систему і методи розрахунків за використання ПЕР
+    work_schedule: 5-денний робочий тиждень
+    work_nature: Постійний (301)
+    working_conditions: Оптимальні
+    requirements:
+      education: Магістр; Бакалавр
+      experience: з досвідом роботи
+      professional_competencies: з досвідом роботи в житлово-комунальному господарстві
+    social_benefits: професійний розвиток
+    accessible_for_disabled: true
+    date_posted: "17.05.26"
+    source: ДЦЗ
+
+  - title: інженер-енергетик
+    vacancy_number: "04602602020006"
+    employer: КП "УК "ЖИЛКОМСЕРВІС"
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна
+    salary: 18095 грн
+    phone: "+380684916873"
+    description: організація та облік планово-експлуатаційної роботи, робота з економії енергоресурсів
+    work_schedule: 5-денний робочий тиждень
+    work_nature: Постійний (301)
+    working_conditions: Допустимі
+    requirements:
+      education: Бакалавр; Магістр
+      experience: з досвідом роботи
+      professional_competencies: з досвідом роботи в житлово-комунальномугосподарстві
+    social_benefits: професійний розвиток
+    date_posted: "10.05.26"
+    source: ДЦЗ
+
+  - title: слюсар аварійно-відновлювальних робіт
+    vacancy_number: "04602605200001"
+    employer: КП "ЖИЛСЕРВІС"
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна
+    salary: 18000 грн
+    phone: "+380684916873"
+    description: обслуговування водопровідно-каналізаційних мереж, виявляє, локалізує та усуває пошкодження на трубопроводах, інженерних мережах та обладнанні для відновлення їх безперебійної роботи
+    work_schedule: 5-денний робочий тиждень
+    work_nature: Постійний (301)
+    working_conditions: Оптимальні
+    requirements:
+      education: Кваліфікований робітник
+      experience: без досвіду роботи
+    social_benefits: професійний розвиток
+    date_posted: "19.05.26"
+    source: ДЦЗ
+
+  - title: продавець-консультант
+    vacancy_number: "04602605220012"
+    employer: ТОВ "АТБ-МАРКЕТ"
+    location:
+      settlement: Вільногірськ
+      region: Дніпропетровська область
+      district: Кам'янський район
+      community: Вільногірська міська ТГ
+    employment_type: повна, позмінна
+    salary: 17000 грн
+    phone: "+380684916873"
+    description: розміщення і викладка товару в торговому залі; обслуговування покупців на касі, згідно встановлених стандартів
+    work_schedule: Робота змінами
+    work_nature: Постійний (301)
+    working_conditions: Оптимальні
+    requirements:
+      education: Кваліфікований робітник
+      experience: без досвіду роботи
+    social_benefits: професійний розвиток
+    date_posted: "21.05.26"
+    source: ДЦЗ
