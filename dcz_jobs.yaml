@@ -223,7 +223,7 @@ jobs:
     education: Кваліфікований робітник
     experience: без досвіду роботи
   social_benefits: професійний розвиток
-  date_posted: 19.05.26
+  date_posted: 04.06.26
   source: ДЦЗ
 - title: офісний службовець (інформація)
   vacancy_number: '04602603300024'
@@ -311,7 +311,7 @@ jobs:
     experience: без досвіду роботи
     professional_competencies: мати посвідчення тракториста-машиніста з категорією А
   social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
-  date_posted: 19.05.26
+  date_posted: 04.06.26
   source: ДЦЗ
 - title: спеціаліст державної служби (місцевого самоврядування)
   vacancy_number: 04602512010008
@@ -379,7 +379,7 @@ jobs:
     experience: з досвідом роботи
     professional_competencies: з досвідом роботи у житлово-комнальному господарстві, мати посвідчення тракториста-машиніста з категорією А
   social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
-  date_posted: 19.05.26
+  date_posted: 04.06.26
   source: ДЦЗ
 - title: слюсар-сантехнік
   vacancy_number: 04602605190015
@@ -530,7 +530,7 @@ jobs:
     experience: з досвідом роботи
   social_benefits: професійний розвиток
   accessible_for_disabled: true
-  date_posted: 19.05.26
+  date_posted: 04.06.26
   source: ДЦЗ
 - title: прибиральник територій
   vacancy_number: '04602601070002'
@@ -702,4 +702,25 @@ jobs:
     experience: з досвідом роботи
   social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
   date_posted: 24.05.26
+  source: ДЦЗ
+- title: психолог
+  vacancy_number: '04602604130005'
+  employer: КНП "ЦНСП" ВМР ДО
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: невизначено
+  salary: 15788 грн
+  phone: '+380684916873'
+  description: Проведення соціально-профілактичної роботи, проведення оцінювання потреб сім'ї з ознаками складних життєвих обставин
+  work_schedule: 5-денний робочий тиждень
+  working_conditions: Допустимі
+  requirements:
+    education: Бакалавр
+    experience: без досвіду роботи
+  social_benefits: можливість проходження навчання на робочому місці, професійний розвиток
+  accessible_for_disabled: true
+  date_posted: 04.06.26
   source: ДЦЗ
