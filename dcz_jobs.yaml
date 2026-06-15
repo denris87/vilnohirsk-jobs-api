@@ -324,28 +324,6 @@ jobs:
   social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
   date_posted: 07.06.26
   source: ДЦЗ
-- title: тракторист
-  vacancy_number: '04602602240037'
-  employer: ТОВ "СКЛЯННИЙ АЛЬЯНС"
-  location:
-    settlement: Вільногірськ
-    region: Дніпропетровська область
-    district: Кам'янський район
-    community: Вільногірська міська ТГ
-  employment_type: повна
-  salary: 13630 грн
-  phone: '+380684916873'
-  description: виконання безпечних перевезень вантажів
-  work_schedule: 5-денний робочий тиждень
-  work_nature: Постійний (301)
-  working_conditions: Допустимі
-  requirements:
-    education: Кваліфікований робітник
-    experience: без досвіду роботи
-    professional_competencies: мати посвідчення тракториста-машиніста з категорією А
-  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
-  date_posted: 04.06.26
-  source: ДЦЗ
 - title: машиніст крана (кранівник)
   vacancy_number: '04602606050001'
   employer: ТОВ "СКЛЯННИЙ АЛЬЯНС"
