@@ -626,3 +626,88 @@ jobs:
   social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
   date_posted: 09.06.26
   source: ДЦЗ
+- title: завідувач складу
+  vacancy_number: '04602605210009'
+  employer: ТОВ "СКЛЯНИЙ АЛЬЯНС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 20310 грн
+  phone: '+380684916873'
+  description: здійснює приймання склоформуючого інструменту, що надходить від постачальників
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Магістр; Бакалавр
+    experience: без досвіду роботи
+  social_benefits: професійний розвиток
+  date_posted: 07.06.26
+  source: ДЦЗ
+- title: водій навантажувача
+  vacancy_number: '04602605210007'
+  employer: ТОВ "СКЛЯНИЙ АЛЬЯНС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна, позмінна
+  salary: 10015 грн
+  phone: '+380684916873'
+  description: перевезення, розвантаження та завантаження вантажів
+  work_schedule: Робота змінами
+  work_nature: Постійний (301)
+  working_conditions: Допустимі
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 07.06.26
+  source: ДЦЗ
+- title: водій автотранспортних засобів
+  vacancy_number: '04602606080010'
+  employer: ФІЛІЯ "ВІЛЬНОГІРСЬКИЙ ГІРНИЧО-МЕТАЛУРГІЙНИЙ КОМБІНАТ" АКЦІОНЕРНОГО ТОВАРИСТВА "ОБ'ЄДНАНА ГІРНИЧО-ХІМ
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: невизначено
+  salary: 10454 грн
+  phone: '+380684916873'
+  description: перевезення пасажирів і вантажів, ремонт і технічне обслуговування автомобіля
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Інше (304), на час військової служби
+  working_conditions: Шкідливі
+  requirements:
+    education: Кваліфікований робітник
+    experience: з досвідом роботи
+    professional_competencies: наявність водійського посвідчення категорії C
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 07.06.26
+  source: ДЦЗ
+- title: водій навантажувача
+  vacancy_number: '04602605210006'
+  employer: ТОВ "СКЛЯНИЙ АЛЬЯНС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна, позмінна
+  salary: 10015 грн
+  phone: '+380684916873'
+  description: перевезення, розвантаження та завантаження вантажів
+  work_schedule: Робота змінами
+  work_nature: Постійний (301)
+  working_conditions: Допустимі
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 07.06.26
+  source: ДЦЗ
