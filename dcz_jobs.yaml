@@ -274,3 +274,110 @@ jobs:
   social_benefits: професійний розвиток
   date_posted: 21.06.26
   source: ДЦЗ
+- title: прибиральник службових приміщень
+  vacancy_number: '04602606190014'
+  employer: КП "УК "ЖИЛКОМСЕРВІС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 8700 грн
+  phone: '+380684916873'
+  description: вологе прибирання кабінетів, коридора
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Допустимі
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: професійний розвиток
+  date_posted: 18.06.26
+  source: ДЦЗ
+- title: лікар-педіатр
+  vacancy_number: '04602602240025'
+  employer: КП "ВІЛЬНОГІРСЬКА ЦМЛ"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 20000 грн
+  phone: '+380684916873'
+  description: обов'язки лікаря-педіатра включають профілактику, діагностику та лікування захворювань у дітей від народження до 18 років, моніторинг їхнього фізичного та психічного розвитку, надання консультацій батькам щодо догляду та харчування; проводить планові огляди, вакцинацію, призначає обстеження та лікування, за необхідності направляє до вузьких спеціалістів
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: робота, пов'язана з підвищеним нервово-емоційним та інтелектуальним навантаженням
+  requirements:
+    education: Магістр
+    experience: без досвіду роботи
+    professional_competencies: наявність сертифіката лікаря-спеціаліста та посвідчення про присвоєння (підтвердження) кваліфікаційної категорії з цієї спеціальності
+  social_benefits: професійний розвиток
+  date_posted: 18.06.26
+  source: ДЦЗ
+- title: юрисконсульт (радник юридичний)
+  vacancy_number: '04602603300027'
+  employer: КП "УК "ЖИЛКОМСЕРВІС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 23203 грн
+  phone: '+380684916873'
+  description: бере участь у роботі з укладання господарських договорів, підготовки висновків про їх юридичну обґрунтованість
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Магістр; Бакалавр
+    experience: з досвідом роботи
+  social_benefits: професійний розвиток
+  date_posted: 18.06.26
+  source: ДЦЗ
+- title: інженер-енергетик
+  vacancy_number: '04602603300025'
+  employer: КП "УК "ЖИЛКОМСЕРВІС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 19888 грн
+  phone: '+380684916873'
+  description: здійснює роботу з організації обліку ПЕР, удосконалює систему і методи розрахунків за використання ПЕР
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Магістр; Бакалавр
+    experience: з досвідом роботи
+    professional_competencies: з досвідом роботи в житлово-комунальному господарстві
+  social_benefits: професійний розвиток
+  date_posted: 18.06.26
+  source: ДЦЗ
+- title: налагоджувальник технологічного устаткування (електронна техніка)
+  vacancy_number: '04602603120019'
+  employer: ТОВ "СКЛЯННИЙ АЛЬЯНС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 14200 грн
+  phone: '+380684916873'
+  description: обслуговування технологічного устаткування
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Допустимі
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 18.06.26
+  source: ДЦЗ
