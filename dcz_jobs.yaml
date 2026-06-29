@@ -577,3 +577,25 @@ jobs:
   social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту, можливість проходження навчання на робочому місці
   date_posted: 15.06.26
   source: ДЦЗ
+- title: водій автотранспортних засобів
+  vacancy_number: '04602606160009'
+  employer: КП "УК "ЖИЛКОМСЕРВІС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 15000 грн
+  phone: '+380684916873'
+  description: збір та вивіз побутового сміття від мешканців міста
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: з досвідом роботи
+    professional_competencies: посвідчення водія категорії C
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 15.06.26
+  source: ДЦЗ
