@@ -600,3 +600,87 @@ jobs:
   social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
   date_posted: 08.07.26
   source: ДЦЗ
+- title: контролер скляного виробництва
+  vacancy_number: '04602607090014'
+  employer: ТОВ "МАКСИТРОН"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна, позмінна
+  salary: 13184 грн
+  phone: '+380684916873'
+  description: контроль якості готової продукції
+  work_schedule: Робота змінами
+  work_nature: Постійний (301)
+  working_conditions: Допустимі
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: професійний розвиток
+  date_posted: 08.07.26
+  source: ДЦЗ
+- title: машиніст пакувальної машини
+  vacancy_number: '04602607090016'
+  employer: ТОВ "СКЛЯННИЙ АЛЬЯНС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна, позмінна
+  salary: 13250 грн
+  phone: '+380684916873'
+  description: пакування палетів з готовою продукцією
+  work_schedule: Робота змінами
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 08.07.26
+  source: ДЦЗ
+- title: машиніст пакувальної машини
+  vacancy_number: '04602607090015'
+  employer: ТОВ "СКЛЯННИЙ АЛЬЯНС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна, позмінна
+  salary: 13250 грн
+  phone: '+380684916873'
+  description: пакування палетів з готовою продукцією
+  work_schedule: Робота змінами
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 08.07.26
+  source: ДЦЗ
+- title: завідувач складу
+  vacancy_number: '04602605210009'
+  employer: ТОВ "СКЛЯННИЙ АЛЬЯНС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 20310 грн
+  phone: '+380684916873'
+  description: здійснює приймання склоформуючого інструменту, що надходить від постачальника
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Магістр; Бакалавр
+    experience: без досвіду роботи
+  social_benefits: професійний розвиток
+  date_posted: 09.07.26
+  source: ДЦЗ
