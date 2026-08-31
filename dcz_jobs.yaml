@@ -215,3 +215,112 @@ jobs:
   social_benefits: професійний розвиток
   date_posted: 19.08.26
   source: ДЦЗ
+- title: водій автотранспортних засобів
+  vacancy_number: '04602606160009'
+  employer: КП "УК "ЖИЛКОМСЕРВІС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 15000 грн
+  phone: '+380684916873'
+  description: збір та вивіз побутового сміття від мешканців міста
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: з досвідом роботи
+    professional_competencies: посвідчення водія категорії С
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 20.08.26
+  source: ДЦЗ
+- title: бухгалтер
+  vacancy_number: '04602605290031'
+  employer: КП "ВІЛЬНОГІРСЬКА ЦМЛ"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 8700 грн
+  phone: '+380684916873'
+  description: нарахування заробітної плати, виконання інших розрахунків з працівниками, громадянами та юридичними особами відповідно до чинного законодавства та інше
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Магістр; Бакалавр
+    experience: з досвідом роботи
+    professional_competencies: знання та використання чинного законодавства у бухгалтерській сфері
+  social_benefits: професійний розвиток
+  date_posted: 20.08.26
+  source: ДЦЗ
+- title: електромонтер з ремонту та обслуговування електроустаткування
+  vacancy_number: '04602608200028'
+  employer: ТОВ "СКЛЯННИЙ АЛЬЯНС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 16625 грн
+  phone: '+380684916873'
+  description: обслуговування та ремонт електроустаткування
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 20.08.26
+  source: ДЦЗ
+- title: тракторист
+  vacancy_number: '04602606160006'
+  employer: КП "УК "ЖИЛКОМСЕРВІС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 15000 грн
+  phone: '+380684916873'
+  description: збір та вивіз побутового сміття від мешканців міста
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: з досвідом роботи
+    professional_competencies: з досвідом роботи у житлово-комкнальному господарстві, мати посвідчення тракториста-машиніста з категорією А
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 20.08.26
+  source: ДЦЗ
+- title: машиніст екскаватора одноковшового
+  vacancy_number: '04602606160008'
+  employer: КП "УК "ЖИЛКОМСЕРВІС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 16000 грн
+  phone: '+380684916873'
+  description: планування територій, копання траншей під комунікації, завантаження сипучих матеріалів, розробка грунту 1,2 категорії
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: з досвідом роботи
+    professional_competencies: з досвідом роботи у житлово-комкнальному господарстві, мати посвідчення тракториста-машиніста з категорією А
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 20.08.26
+  source: ДЦЗ
