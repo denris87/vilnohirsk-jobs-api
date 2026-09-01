@@ -617,3 +617,86 @@ jobs:
   social_benefits: професійний розвиток
   date_posted: 25.08.26
   source: ДЦЗ
+- title: помічник вихователя
+  vacancy_number: '04602608270010'
+  employer: КЗДО №4
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 8700 грн
+  phone: '+380684916873'
+  description: Допомогає вихователю в підготовці до занять та прибирання після них, допомогає розводити дітей по підгрупах на заняття. Стежить за чистотою дитячих рушників та постільної білизни, згідно з графіком змінює білизну. Стежить за збереженням майна, допомагає у підготовці та подаванні їжі дітям , а також у забезпеченні чистоти та гігієни в приміщенні.
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: професійний розвиток
+  date_posted: 26.08.26
+  source: ДЦЗ
+- title: слюсар-електрик з ремонту електроустаткування
+  vacancy_number: '04602608260020'
+  employer: ТОВ "ПП "ГІДРОСПЕЦСЕРВІС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: невизначено
+  salary: 18000 грн
+  phone: '+380684916873'
+  description: Володіння базовими навиками по ремонту електрообланання
+  work_schedule: 5-денний робочий тиждень
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: з досвідом роботи
+  social_benefits: професійний розвиток
+  date_posted: 26.08.26
+  source: ДЦЗ
+- title: контролер скляного виробництва
+  vacancy_number: '04602608280003'
+  employer: ТОВ "СКЛЯННИЙ АЛЬЯНС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна, позмінна
+  salary: 13184 грн
+  phone: '+380684916873'
+  description: контроль якості готової продукції
+  work_schedule: Робота змінами
+  work_nature: Постійний (301)
+  working_conditions: Допустимі
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 27.08.26
+  source: ДЦЗ
+- title: контролер скляного виробництва
+  vacancy_number: '04602607090014'
+  employer: ТОВ "МАКСИТРОН"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна, позмінна
+  salary: 13184 грн
+  phone: '+380684916873'
+  description: контроль якості готової продукції
+  work_schedule: Робота змінами
+  work_nature: Постійний (301)
+  working_conditions: Допустимі
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: професійний розвиток
+  date_posted: 27.08.26
+  source: ДЦЗ
