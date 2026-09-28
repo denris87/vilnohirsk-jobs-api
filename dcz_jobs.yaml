@@ -211,3 +211,66 @@ jobs:
   social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту, можливість проходження навчання на робочому місці
   date_posted: 15.09.26
   source: ДЦЗ
+- title: продавець продовольчих товарів
+  vacancy_number: '04602608250003'
+  employer: СЕМЕНЧА РУСЛАНА СЕРГІЇВНА
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна, позмінна
+  salary: 9000 грн
+  phone: '+380684916873'
+  description: продаж товарів продовольчої групи
+  work_schedule: Робота змінами
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: з досвідом роботи
+  social_benefits: професійний розвиток
+  date_posted: 16.09.26
+  source: ДЦЗ
+- title: психолог
+  vacancy_number: '04602604130005'
+  employer: КНП "ЦНСП" ВМР ДО
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 15788 грн
+  phone: '+380684916873'
+  description: Проведення соціально-профілактичної роботи, проведення оцінювання потреб сім'ї з ознаками складних життєвих обставин
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Допустимі
+  requirements:
+    education: Бакалавр
+    experience: без досвіду роботи
+  social_benefits: можливість проходження навчання на робочому місці, професійний розвиток
+  date_posted: 16.09.26
+  source: ДЦЗ
+- title: слюсар-ремонтник
+  vacancy_number: '04602608260022'
+  employer: ТОВ "ПП "ГІДРОСПЕЦСЕРВІС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 16000 грн
+  phone: '+380684916873'
+  description: Ремонт і обслуговування — Розбирання механізмів, вузлів та деталей, заміна зношених елементів, відновлення працездатності обладнання
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: з досвідом роботи
+  social_benefits: професійний розвиток
+  date_posted: 16.09.26
+  source: ДЦЗ
