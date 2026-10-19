@@ -213,3 +213,110 @@ jobs:
   social_benefits: професійний розвиток
   date_posted: 04.10.26
   source: ДЦЗ
+- title: лікар-інфекціоніст
+  vacancy_number: '04602610070006'
+  employer: КП "ВІЛЬНОГІРСЬКА ЦМЛ"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 20000 грн
+  phone: '+380684916873'
+  description: надає спеціалізовану медичну допомогу з інфекційною патологією, в тому числі швидку і невідкладну та інше
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: робота, пов'язана з підвищенним нервово-емоційним та інтелектуальним навантаженням
+  requirements:
+    education: Магістр
+    experience: без досвіду роботи
+    professional_competencies: наявність сертифіката лікаря-спеціаліста та посвідчення про присвоєння (підтвердження) кваліфікаційної категорії з цієї спеціальності; вільне володіння державною мовою та застосування її під час виконання службових обов'язків
+  social_benefits: професійний розвиток
+  date_posted: 06.10.26
+  source: ДЦЗ
+- title: інженер-енергетик
+  vacancy_number: '04602608030018'
+  employer: КП "УК "ЖИЛКОМСЕРВІС"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 18095 грн
+  phone: '+380684916873'
+  description: організація та облік планово-експлуатаційної роботи, робота з економії енергоресурсів
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Допустимі
+  requirements:
+    education: Магістр; Бакалавр
+    experience: з досвідом роботи
+    professional_competencies: з досвідом роботи в житлово-комунальномугосподарстві
+  social_benefits: професійний розвиток
+  date_posted: 06.10.26
+  source: ДЦЗ
+- title: ерготерапевт
+  vacancy_number: '04602608030019'
+  employer: КП "ВІЛЬНОГІРСЬКА ЦМЛ"
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 20000 грн
+  phone: '+380684916873'
+  description: сприяє набуттю людьми з обмеженнями життєдіяльності максимального рівня функціональності та незалежності в усіх аспектах життя
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: робота, пов'язана з підвищеним нервово-емоційним та інтелектуальним навантаженням
+  requirements:
+    education: Магістр
+    experience: без досвіду роботи
+  social_benefits: професійний розвиток
+  date_posted: 06.10.26
+  source: ДЦЗ
+- title: двірник
+  vacancy_number: '04602610070002'
+  employer: КЗДО №3
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 8700 грн
+  phone: '+380684916873'
+  description: прибирання території закладу та прилеглої території
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Оптимальні
+  requirements:
+    education: Кваліфікований робітник
+    experience: без досвіду роботи
+  social_benefits: забезпечення спеціальним одягом/взуттям та засобами індивідуального захисту
+  date_posted: 06.10.26
+  source: ДЦЗ
+- title: психолог
+  vacancy_number: '04602610070008'
+  employer: КНП "ЦНСП" ВМР ДО
+  location:
+    settlement: Вільногірськ
+    region: Дніпропетровська область
+    district: Кам'янський район
+    community: Вільногірська міська ТГ
+  employment_type: повна
+  salary: 15788 грн
+  phone: '+380684916873'
+  description: Проведення соціально-профілактичної роботи, проведення оцінювання потреб сім'ї з ознаками складних життєвих обставин
+  work_schedule: 5-денний робочий тиждень
+  work_nature: Постійний (301)
+  working_conditions: Допустимі
+  requirements:
+    education: Бакалавр
+    experience: без досвіду роботи
+  social_benefits: професійний розвиток
+  date_posted: 06.10.26
+  source: ДЦЗ
